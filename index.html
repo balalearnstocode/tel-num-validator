@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Telephone Number Validator</title>
+    <link href="./main.css" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div id="content">
+        <!-- <h2>Ceaser Cipher for both uppercase and lower case characters</h2> -->
+        <label for="text">Enter telephone number:</label>
+        <input type="tel" id="text" name="text">
+        <br><br>
+        <button id="check" onclick="validateNumber()">Check</button>
+        <button id="clear" onclick="clearText()">Clear</button>
+        <br><br>
+        <div id="result"></div>
+        <br><br>
+        <h3>Valid formats for US numbers :</h3>
+        <pre><code>
+555-555-5555
+(555)555-5555
+(555) 555-5555
+555 555 5555
+5555555555
+1 555 555 5555
+        </code></pre>
+    </div>
+    <div id="source-code">Source code:
+        <a href="https://github.com/balalearnstocode/tel-num-validator"
+        target="_blank">https://github.com/balalearnstocode/tel-num-validator</a>
+    </div>
+</body>
+</html>
